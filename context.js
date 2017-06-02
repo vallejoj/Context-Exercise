@@ -26,5 +26,5 @@ console.log(add.call(voltron, 1, 2));
 console.log(add.apply(optimus,[20,30] ));
 
 // #4
-var bendIt=add.bind(null,'drinking',' beer')
+var bendIt=add.bind(bender,'drinking',' beer')
 console.log( bendIt());
